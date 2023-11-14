@@ -101,5 +101,116 @@ Example:
 echo "Hello, Linux!"
 ```
 
-These are just a few basic commands to get you started. Feel free to ask if you want to know more or if you have any specific questions!
+**touch - Create Empty File**:
+
+The touch command is used to create an empty file.
+
+Example:
+
+```
+touch new_file.txt
+```
+
+**nano - Text Editor**:
+
+The nano command opens a simple text editor.
+
+Example:
+
+```
+nano new_file.txt
+```
+
+Press Ctrl + X to exit, and it will prompt you to save changes.
+
+**grep - Search Text**:
+
+The grep command is used to search for a specific pattern in a file.
+
+Example:
+
+```
+grep "keyword" file.txt
+```
+
+**chmod - Change Permissions**:
+
+The chmod command is used to change the permissions of a file or directory.
+
+Example:
+
+```
+chmod +x script.sh
+```
+
+This makes the script executable.
+
+**ps - Process Status**:
+
+The ps command displays information about running processes.
+
+Example:
+
+```
+ps aux
+```
+
+**kill - Terminate Process**:
+
+The kill command is used to terminate a process.
+
+Example:
+
+```
+kill PID
+```
+
+Replace PID with the actual process ID.
+
+**df - Disk Free**:
+
+The df command shows the amount of disk space available on the file system.
+
+Example:
+
+```
+df -h
+```
+
+The -h option makes the output human-readable.
+
+**du - Disk Usage**:
+
+The du command displays the disk usage of files and directories.
+
+Example:
+
+```
+du -sh directory_name
+```
+
+**tar - Tape Archive**:
+
+The tar command is used to compress and archive files.
+
+Example (create a tarball):
+
+```
+tar -czvf archive.tar.gz directory_to_compress/
+```
+
+**wget - Download from the Web**:
+
+The wget command is used to download files from the internet.
+
+Example:
+
+```
+wget https://example.com/file.zip
+```
+
+
+
+
+
 
