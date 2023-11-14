@@ -608,5 +608,223 @@ Example:
 tail -n 5 file.txt
 ```
 
+**grep - Invert Match**:
 
+The -v option in grep inverts the match, showing lines that do not match the pattern.
+
+Example:
+
+```
+grep -v "pattern" file.txt
+```
+
+**find - Find and Delete Files**:
+
+You can use find along with rm to find and delete files.
+
+Example:
+
+```
+find /path/to/search -name "*.tmp" -delete
+```
+
+This finds and deletes all .tmp files.
+
+**awk - Advanced Text Processing**:
+
+Use awk to perform more advanced text processing, like extracting specific columns.
+
+Example:
+
+```
+cat data.txt | awk '{print $1, $3}'
+```
+
+This prints the first and third columns of a space-separated file.
+
+**sed - Search and Replace with Confirmation**:
+
+The sed command with the -i option can perform a search and replace in a file with confirmation.
+
+Example:
+
+```
+sed -i 's/old/new/g' file.txt
+```
+
+This replaces all occurrences of 'old' with 'new' with confirmation.
+
+**cut - Extract Sections from Each Line**:
+
+The cut command is used to extract sections from each line of a file.
+
+Example:
+
+```
+cut -d',' -f1,3 file.csv
+```
+
+This extracts the first and third fields from a comma-separated file.
+
+**paste - Merge Lines from Multiple Files**:
+
+The paste command merges lines from multiple files.
+
+Example:
+
+```
+paste file1.txt file2.txt
+```
+
+**date - Display Current Date and Time**:
+
+The date command displays the current date and time.
+
+Example:
+
+```
+date
+```
+
+**cal - Display Calendar**:
+
+The cal command displays a calendar.
+
+Example:
+
+```
+cal
+```
+
+**uptime - Show System Uptime**:
+
+The uptime command displays how long the system has been running.
+
+Example:
+
+```
+uptime
+```
+
+**whoami - Display Current User**:
+
+The whoami command displays the current username.
+
+Example:
+
+```
+whoami
+```
+
+## More complex or advance samples
+
+**grep - Recursive Search**:
+
+The -r option in grep allows you to recursively search for a pattern in directories.
+
+Example:
+
+```
+grep -r "pattern" /path/to/search
+```
+
+**find - Execute Commands on Found Files**:
+
+You can use find with the -exec option to execute commands on found files.
+
+Example:
+
+```
+find /path/to/search -name "*.txt" -exec cat {} \;
+```
+
+This finds all .txt files and prints their contents.
+
+**xargs - Build and Execute Commands**:
+
+xargs is often used with other commands to build and execute complex commands.
+
+Example:
+
+```
+find /path/to/search -name "*.log" | xargs grep "error"
+```
+
+This finds all .log files and searches for "error" in their contents.
+
+**awk - Advanced Field Separators**:
+
+You can specify custom field separators in awk.
+
+Example:
+
+```
+cat data.csv | awk -F';' '{print $1, $3}'
+```
+
+This prints the first and third columns of a semicolon-separated file.
+
+sed - Edit Files In-Place:
+sed can edit files in-place with the -i option.
+
+Example:
+
+bash
+Copy code
+sed -i 's/old/new/g' file.txt
+This replaces all occurrences of 'old' with 'new' in the file, modifying it directly.
+
+**tee - Redirect Output to Multiple Files**:
+
+The tee command can be used to redirect output to multiple files.
+
+Example:
+
+```
+command | tee file1.txt file2.txt
+```
+
+This sends the output of a command to both file1.txt and file2.txt.
+
+**awk and sort - Custom Sorting**:
+
+Combine awk and sort to perform custom sorting on a specific column.
+
+Example:
+
+```
+cat data.txt | awk '{print $2}' | sort -n
+```
+
+This prints and sorts the second column numerically.
+
+**curl and jq - Process JSON API Responses**:
+
+Use curl to fetch data from a JSON API and jq to process and filter the JSON response.
+
+Example:
+
+```
+curl -s https://api.example.com/data | jq '.results | .[] | .name'
+```
+
+**awk and Math - Calculate Sum or Average**:
+
+awk can be used for mathematical operations, like calculating the sum or average of a column.
+
+Example:
+
+```
+cat numbers.txt | awk '{sum+=$1} END {print "Sum:", sum; print "Average:", sum/NR}'
+```
+
+**find, tar, and gzip - Create a Compressed Backup**:
+
+Combine find, tar, and gzip to create a compressed backup of specific files.
+
+Example:
+
+```
+find /path/to/backup -type f -print | tar czvf backup.tar.gz -T -
+```
 
