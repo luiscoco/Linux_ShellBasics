@@ -1048,33 +1048,43 @@ Example:
 bash
 Copy code
 ssh user@remote "tar czvf - /path/to/remote/dir" > local_archive.tar.gz
-awk and Arrays:
+
+**awk and Arrays**:
+
 Utilizing arrays in awk for more advanced text processing.
+
 Example:
 
-bash
-Copy code
+```
 cat data.csv | awk '{arr[$1]+=$2} END {for (i in arr) print i, arr[i]}'
+```
+
 This calculates the sum of the second column grouped by unique values in the first column.
 
-Recursive scp - Copy Directories with scp and tar:
+**Recursive scp** - Copy Directories with scp and tar:
+
 Copying entire directories recursively using scp and tar.
+
 Example:
 
-bash
-Copy code
+```
 tar czvf - /path/to/dir | ssh user@remote "tar xzvf - -C /remote/path/"
+```
+
 This archives and transfers a directory to a remote server in one command.
 
-Job Control - bg, fg, and disown:
+**Job Control** - bg, fg, and disown:
+
 Managing background and foreground jobs, and disowning processes.
+
 Example:
 
-bash
-Copy code
+```
 ./long_running_script.sh &
+```
+
 bg             # Puts the script in the background
+
 fg             # Brings the background script to the foreground
+
 disown         # Disowns the background script, preventing it from being terminated with the shell
-
-
