@@ -325,6 +325,115 @@ alias ll='ls -la'
 
 Now you can use ll instead of ls -la.
 
+**top - Display System Activity in Real-Time**:
+
+The top command displays real-time information about system processes.
+
+Example:
+
+```
+top
+```
+
+Press q to exit.
+
+**htop - Improved Process Viewer**:
+
+The htop command is an enhanced version of top with a better interactive interface.
+
+Example:
+
+```
+htop
+```
+
+Use arrow keys to navigate, and press q to exit.
+
+**netstat - Network Statistics**:
+
+The netstat command shows network-related information such as open ports and connections.
+
+Example:
+
+```
+netstat -an
+```
+
+**ifconfig - Network Interface Configuration**:
+
+The ifconfig command displays information about network interfaces.
+
+Example:
+
+```
+ifconfig
+```
+
+**ping - Test Network Connection**:
+
+The ping command is used to test the reachability of a host on a network.
+
+Example:
+
+```
+ping google.com
+```
+
+Press Ctrl + C to stop.
+
+**traceroute - Trace Route to a Host**:
+
+The traceroute command shows the route packets take to reach a destination.
+
+Example:
+
+```
+traceroute google.com
+```
+
+**ssh - Secure Shell**:
+
+The ssh command is used to connect to a remote server securely.
+
+Example:
+
+```
+ssh username@remote_host
+```
+
+**scp - Secure Copy**:
+
+The scp command is used to securely copy files between local and remote hosts.
+
+Example:
+
+```
+scp local_file.txt username@remote_host:/path/to/destination/
+```
+
+**chmod - Change Permissions**:
+
+The chmod command can change the permissions of a file or directory.
+
+Example:
+
+```
+chmod 755 script.sh
+```
+
+This gives read, write, and execute permissions to the owner, and read and execute permissions to others.
+
+**chown - Change Owner**:
+
+The chown command changes the owner of a file or directory.
+
+Example:
+
+```
+chown new_owner:new_group file.txt
+```
+
+
 
 
 
