@@ -892,37 +892,46 @@ Example:
 find /path/to/backup -type f -print | tar czvf backup.tar.gz -T -
 ```
 
-
-
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-awk with Conditionals:
+**awk with Conditionals**:
+
 awk can be used with conditionals to perform actions based on certain criteria.
+
 Example:
 
-bash
-Copy code
+```
 cat grades.txt | awk '{ if ($2 >= 90) print $1 " : A"; else print $1 " : B" }'
+```
+
 This prints students' names with grades A or B based on the second column of grades.
 
-Command Substitution:
+**Command Substitution**:
+
 Command substitution allows you to use the output of one command as an argument for another.
+
 Example:
 
-bash
-Copy code
+```
 echo "Today is $(date)"
-sed - Multi-Line Editing:
+```
+
+**sed - Multi-Line Editing**:
+
 sed can be used to edit multiple lines, useful for more complex text transformations.
+
 Example:
 
-bash
-Copy code
+```
 sed '/start/,/end/ s/old/new/g' file.txt
+```
+
 This replaces 'old' with 'new' only between lines containing 'start' and 'end'.
 
-Pipes and Redirection:
+**Pipes and Redirection**:
+
 Combining pipes (|) and redirection (>, <, >>) can create powerful one-liners.
+
 Example:
 
 bash
@@ -972,37 +981,45 @@ bash
 Copy code
 ssh-keygen -t rsa
 ssh-copy-id user@remote
-Shell Scripting:
+
+**Shell Scripting**:
+
 Writing shell scripts allows you to automate tasks and execute multiple commands in sequence.
+
 Example:
 
-bash
-Copy code
+```
 #!/bin/bash
 echo "Hello, this is a shell script!"
 ls -l
-Save this as a .sh file and execute with bash script.sh.
+```
 
+Save this as a .sh file and execute with bash script.sh.
 
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
+**Command Substitution with a Loop**:
 
-Command Substitution with a Loop:
 Combining command substitution with a loop for dynamic command generation.
+
 Example:
 
-bash
-Copy code
+```
 for file in $(ls *.txt); do echo "Processing $file"; done
+```
+
 This loops through each text file in the current directory and performs a custom action.
 
-Advanced awk - Pattern Matching and Actions:
+**Advanced awk** - Pattern Matching and Actions
+
 Using awk with more complex pattern matching and actions.
+
 Example:
 
-bash
-Copy code
+```
 awk '/error/ {print $1 " : " $NF}' log_file.txt
+```
+
 This prints the first field and last field of lines containing the word 'error'.
 
 grep with Context:
@@ -1021,33 +1038,42 @@ Example:
 bash
 Copy code
 find /path/to/files -type f -print0 | xargs -0 -P 4 -n 1 some_command
+
 This runs some_command on each file in parallel using four processes.
 
-Advanced sed - Hold and Pattern Buffers:
+**Advanced sed** - Hold and Pattern Buffers
+
 Using sed with hold and pattern buffers for more intricate text transformations.
+
 Example:
 
-bash
-Copy code
+```
 sed -n '/start/,/end/ { /pattern/ {s/old/new/g; p} }' file.txt
+```
+
 This replaces 'old' with 'new' only between lines containing 'start' and 'end' and with a specific pattern.
 
-Process Priority and Niceness:
+**Process Priority and Niceness**
+
 Adjusting the priority and niceness of processes using nice and renice.
+
 Example:
 
-bash
-Copy code
+```
 nice -n 10 some_command
+```
+
 This runs some_command with lower priority.
 
-tar and ssh - Create Remote Archives:
+**tar and ssh** - Create Remote Archives
+
 Creating a compressed archive of a remote directory using tar and ssh.
+
 Example:
 
-bash
-Copy code
+```
 ssh user@remote "tar czvf - /path/to/remote/dir" > local_archive.tar.gz
+```
 
 **awk and Arrays**:
 
