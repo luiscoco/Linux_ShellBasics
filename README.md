@@ -892,3 +892,189 @@ Example:
 find /path/to/backup -type f -print | tar czvf backup.tar.gz -T -
 ```
 
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+awk with Conditionals:
+awk can be used with conditionals to perform actions based on certain criteria.
+Example:
+
+bash
+Copy code
+cat grades.txt | awk '{ if ($2 >= 90) print $1 " : A"; else print $1 " : B" }'
+This prints students' names with grades A or B based on the second column of grades.
+
+Command Substitution:
+Command substitution allows you to use the output of one command as an argument for another.
+Example:
+
+bash
+Copy code
+echo "Today is $(date)"
+sed - Multi-Line Editing:
+sed can be used to edit multiple lines, useful for more complex text transformations.
+Example:
+
+bash
+Copy code
+sed '/start/,/end/ s/old/new/g' file.txt
+This replaces 'old' with 'new' only between lines containing 'start' and 'end'.
+
+Pipes and Redirection:
+Combining pipes (|) and redirection (>, <, >>) can create powerful one-liners.
+Example:
+
+bash
+Copy code
+cat access.log | grep "404" | cut -d" " -f1 | sort | uniq > unique_ip_addresses.txt
+This finds unique IP addresses that encountered a 404 error in an Apache access log.
+
+Regular Expressions (Regex):
+Mastering regex patterns allows for sophisticated text matching and manipulation.
+Example:
+
+bash
+Copy code
+grep -E "^[0-9]{3}-[0-9]{2}-[0-9]{4}$" data.txt
+This matches lines with Social Security Numbers in the format XXX-XX-XXXX.
+
+Advanced find Commands:
+find can be combined with various options for advanced file searches.
+Example:
+
+bash
+Copy code
+find /path/to/search -type f -mtime -7 -exec mv {} /backup/ \;
+This finds and moves files modified in the last 7 days to a backup directory.
+
+Process Substitution:
+Process substitution allows the output of a command to be used as an input file.
+Example:
+
+bash
+Copy code
+diff <(command1) <(command2)
+This compares the output of command1 and command2 using the diff command.
+
+rsync - Remote Sync:
+rsync is a powerful command for syncing files between directories or even between different servers.
+Example:
+
+bash
+Copy code
+rsync -avz /local/path/ user@remote:/remote/path/
+SSH Key Authentication:
+Set up SSH key pairs to securely connect to remote servers without entering a password each time.
+Example:
+
+bash
+Copy code
+ssh-keygen -t rsa
+ssh-copy-id user@remote
+Shell Scripting:
+Writing shell scripts allows you to automate tasks and execute multiple commands in sequence.
+Example:
+
+bash
+Copy code
+#!/bin/bash
+echo "Hello, this is a shell script!"
+ls -l
+Save this as a .sh file and execute with bash script.sh.
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Command Substitution with a Loop:
+Combining command substitution with a loop for dynamic command generation.
+Example:
+
+bash
+Copy code
+for file in $(ls *.txt); do echo "Processing $file"; done
+This loops through each text file in the current directory and performs a custom action.
+
+Advanced awk - Pattern Matching and Actions:
+Using awk with more complex pattern matching and actions.
+Example:
+
+bash
+Copy code
+awk '/error/ {print $1 " : " $NF}' log_file.txt
+This prints the first field and last field of lines containing the word 'error'.
+
+grep with Context:
+Using grep with the -C option to display context around matching lines.
+Example:
+
+bash
+Copy code
+grep -C 2 "error" log_file.txt
+This shows two lines of context around each line containing the word 'error'.
+
+find and xargs - Parallel Execution:
+Utilizing find and xargs to perform operations on multiple files in parallel.
+Example:
+
+bash
+Copy code
+find /path/to/files -type f -print0 | xargs -0 -P 4 -n 1 some_command
+This runs some_command on each file in parallel using four processes.
+
+Advanced sed - Hold and Pattern Buffers:
+Using sed with hold and pattern buffers for more intricate text transformations.
+Example:
+
+bash
+Copy code
+sed -n '/start/,/end/ { /pattern/ {s/old/new/g; p} }' file.txt
+This replaces 'old' with 'new' only between lines containing 'start' and 'end' and with a specific pattern.
+
+Process Priority and Niceness:
+Adjusting the priority and niceness of processes using nice and renice.
+Example:
+
+bash
+Copy code
+nice -n 10 some_command
+This runs some_command with lower priority.
+
+tar and ssh - Create Remote Archives:
+Creating a compressed archive of a remote directory using tar and ssh.
+Example:
+
+bash
+Copy code
+ssh user@remote "tar czvf - /path/to/remote/dir" > local_archive.tar.gz
+awk and Arrays:
+Utilizing arrays in awk for more advanced text processing.
+Example:
+
+bash
+Copy code
+cat data.csv | awk '{arr[$1]+=$2} END {for (i in arr) print i, arr[i]}'
+This calculates the sum of the second column grouped by unique values in the first column.
+
+Recursive scp - Copy Directories with scp and tar:
+Copying entire directories recursively using scp and tar.
+Example:
+
+bash
+Copy code
+tar czvf - /path/to/dir | ssh user@remote "tar xzvf - -C /remote/path/"
+This archives and transfers a directory to a remote server in one command.
+
+Job Control - bg, fg, and disown:
+Managing background and foreground jobs, and disowning processes.
+Example:
+
+bash
+Copy code
+./long_running_script.sh &
+bg             # Puts the script in the background
+fg             # Brings the background script to the foreground
+disown         # Disowns the background script, preventing it from being terminated with the shell
+
+
