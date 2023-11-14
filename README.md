@@ -1,5 +1,39 @@
 # Linux shell basics
 
+**ls - List Files**
+**cd - Change Directory**
+**pwd - Print Working Directory**
+**cp – Copy**
+**mv - Move/Rename**
+**rm - Remove/Delete**
+**mkdir - Make Directory**
+**rmdir - Remove Directory**
+**cat - Concatenate and Display**
+**echo - Display Text**
+**touch - Create Empty File**
+**nano - Text Editor**
+**grep - Search Text**
+**chmod - Change Permissions**
+**ps - Process Status**
+**kill - Terminate Process**
+**df - Disk Free**
+**du - Disk Usage**
+**tar - Tape Archive**
+**wget - Download from the Web**
+**df - Display Free Disk Space**
+**free - Display Free Memory**
+**history - Command History**
+**man - Manual Pages**
+**find - Search for Files**
+**awk - Text Processing**
+**sed - Stream Editor**
+**alias - Create Command Aliases**
+**top - Display System Activity in Real-Time**
+**htop - Improved Process Viewer**
+**netstat - Network Statistics**
+**ifconfig - Network Interface Configuration**
+
+
 Let's dive into some basic Linux shell commands.
 
 **ls - List Files**:
@@ -39,7 +73,6 @@ Example:
 ```
 cp file.txt backup/
 ```
-
 
 **mv - Move/Rename**:
 
