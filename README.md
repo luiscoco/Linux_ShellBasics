@@ -64,7 +64,15 @@
 
 **ifconfig** - Network Interface Configuration
 
+**ping** - Test Network Connection
 
+**traceroute** - Trace Route to a Host
+
+**ssh** - Secure Shell
+
+**scp** - Secure Copy
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Let's dive into some basic Linux shell commands.
 
