@@ -1,68 +1,68 @@
 # Linux shell basics
 
-**ls - List Files**
+**ls** - List Files
 
-**cd - Change Directory**
+**cd** - Change Directory
 
-**pwd - Print Working Directory**
+**pwd** - Print Working Directory
 
-**cp – Copy**
+**cp** – Copy
 
-**mv - Move/Rename**
+**mv** - Move/Rename
 
-**rm - Remove/Delete**
+**rm** - Remove/Delete
 
-**mkdir - Make Directory**
+**mkdir** - Make Directory
 
-**rmdir - Remove Directory**
+**rmdir** - Remove Directory
 
-**cat - Concatenate and Display**
+**cat** - Concatenate and Display
 
-**echo - Display Text**
+**echo** - Display Text
 
-**touch - Create Empty File**
+**touch** - Create Empty File
 
-**nano - Text Editor**
+**nano** - Text Editor
 
-**grep - Search Text**
+**grep** - Search Text
 
-**chmod - Change Permissions**
+**chmod** - Change Permissions
 
-**ps - Process Status**
+**ps** - Process Status
 
-**kill - Terminate Process**
+**kill** - Terminate Process
 
-**df - Disk Free**
+**df** - Disk Free
 
-**du - Disk Usage**
+**du** - Disk Usage
 
-**tar - Tape Archive**
+**tar** - Tape Archive
 
-**wget - Download from the Web**
+**wget** - Download from the Web
 
-**df - Display Free Disk Space**
+**df** - Display Free Disk Space
 
-**free - Display Free Memory**
+**free** - Display Free Memory
 
-**history - Command History**
+**history** - Command History
 
-**man - Manual Pages**
+**man** - Manual Pages
 
-**find - Search for Files**
+**find** - Search for Files
 
-**awk - Text Processing**
+**awk** - Text Processing
 
-**sed - Stream Editor**
+**sed** - Stream Editor
 
-**alias - Create Command Aliases**
+**alias** - Create Command Aliases
 
-**top - Display System Activity in Real-Time**
+**top** - Display System Activity in Real-Time
 
-**htop - Improved Process Viewer**
+**htop** - Improved Process Viewer
 
-**netstat - Network Statistics**
+**netstat** - Network Statistics
 
-**ifconfig - Network Interface Configuration**
+**ifconfig** - Network Interface Configuration
 
 
 
