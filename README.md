@@ -764,14 +764,16 @@ cat data.csv | awk -F';' '{print $1, $3}'
 
 This prints the first and third columns of a semicolon-separated file.
 
-sed - Edit Files In-Place:
+**sed - Edit Files In-Place**:
+
 sed can edit files in-place with the -i option.
 
 Example:
 
-bash
-Copy code
+```
 sed -i 's/old/new/g' file.txt
+```
+
 This replaces all occurrences of 'old' with 'new' in the file, modifying it directly.
 
 **tee - Redirect Output to Multiple Files**:
