@@ -114,6 +114,26 @@
 
 **whoami** - Display Current User
 
+**grep** - Recursive Search
+
+**find** - Execute Commands on Found Files
+
+**xargs** - Build and Execute Commands
+
+**awk** - Advanced Field Separators
+
+**sed** - Edit Files In-Place
+
+**tee** - Redirect Output to Multiple Files
+
+**awk and sort** - Custom Sorting
+
+**curl and jq** - Process JSON API Responses
+
+**awk and Math** - Calculate Sum or Average
+
+**find, tar, and gzip** - Create a Compressed Backup
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Let's dive into some basic Linux shell commands.
