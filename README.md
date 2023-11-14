@@ -1,6 +1,4 @@
-# Linux_Shell_Basics
-
-Linux shell basics
+# Linux shell basics
 
 Let's dive into some basic Linux shell commands.
 
