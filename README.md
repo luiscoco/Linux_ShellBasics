@@ -100,6 +100,8 @@
 
 **awk** - Advanced Text Processing
 
+**sed** - Search and Replace with Confirmation
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Let's dive into some basic Linux shell commands.
