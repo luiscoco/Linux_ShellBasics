@@ -433,6 +433,88 @@ Example:
 chown new_owner:new_group file.txt
 ```
 
+curl - Transfer Data with URLs:
+The curl command is used to transfer data to or from a server.
+
+Example:
+
+bash
+Copy code
+curl https://example.com
+wget - Non-interactive Network Downloader:
+We've mentioned wget before for downloading files. You can also use it to download recursively.
+
+Example:
+
+bash
+Copy code
+wget -r -np -k https://example.com
+This downloads the entire website.
+
+tar - Extracting Tarballs:
+We used tar to create tarballs. Now, let's extract them.
+
+Example:
+
+bash
+Copy code
+tar -xzvf archive.tar.gz
+zip - Compress Files into a Zip Archive:
+The zip command is an alternative to tar for compression.
+
+Example:
+
+bash
+Copy code
+zip archive.zip file1.txt file2.txt
+unzip - Extract Files from a Zip Archive:
+The unzip command is used to extract files from a zip archive.
+
+Example:
+
+bash
+Copy code
+unzip archive.zip
+echo - Redirect Output:
+The echo command can be used to redirect output to a file.
+
+Example:
+
+bash
+Copy code
+echo "Hello, Redirected Output!" > output.txt
+sort - Sort Lines of Text:
+The sort command is used to sort lines of text files.
+
+Example:
+
+bash
+Copy code
+sort file.txt
+uniq - Report or Omit Repeated Lines:
+The uniq command removes duplicate lines from a sorted file.
+
+Example:
+
+bash
+Copy code
+sort file.txt | uniq
+head - Display the Beginning of a File:
+The head command displays the first few lines of a file.
+
+Example:
+
+bash
+Copy code
+head -n 5 file.txt
+tail - Display the End of a File:
+The tail command displays the last few lines of a file.
+
+Example:
+
+bash
+Copy code
+tail -n 5 file.txt
 
 
 
