@@ -209,7 +209,121 @@ Example:
 wget https://example.com/file.zip
 ```
 
+**df - Display Free Disk Space**:
 
+The df command without any options displays free disk space for all mounted filesystems.
+
+Example:
+
+```
+df
+```
+
+**free - Display Free Memory**:
+
+The free command shows the amount of free and used memory in the system.
+
+Example:
+
+```
+free -h
+```
+
+The -h option makes the output human-readable.
+
+**ps - Display Process Status**:
+
+The ps command with various options can display detailed information about processes.
+
+Example:
+
+```
+ps aux | grep process_name
+```
+
+Replace process_name with the actual name of the process.
+
+**history - Command History**:
+
+The history command shows a list of previously executed commands.
+
+Example:
+
+```
+history
+```
+
+You can also use !n to execute the command with number n from history.
+
+**man - Manual Pages**:
+
+The man command displays the manual or help pages for a given command.
+
+Example:
+
+```
+man ls
+```
+
+Use arrow keys to navigate, and press q to exit.
+
+**find - Search for Files**:
+
+The find command is used to search for files and directories based on various criteria.
+
+Example:
+
+```
+find /path/to/search -name "*.txt"
+```
+
+This finds all files with a .txt extension.
+
+**grep - Search Text in Files**:
+
+The grep command can search for a specific pattern in files.
+
+Example:
+
+```
+grep "pattern" file.txt
+```
+
+**awk - Text Processing**:
+
+The awk command is a powerful text processing tool.
+
+Example:
+
+```
+cat file.txt | awk '{print $2}'
+```
+
+This prints the second column of a space-separated file.
+
+**sed - Stream Editor**:
+
+The sed command is used for text stream processing.
+
+Example:
+
+```
+cat file.txt | sed 's/old/new/g'
+```
+
+This replaces all occurrences of 'old' with 'new' in the file.
+
+**alias - Create Command Aliases**:
+
+The alias command is used to create aliases for other commands.
+
+Example:
+
+```
+alias ll='ls -la'
+```
+
+Now you can use ll instead of ls -la.
 
 
 
