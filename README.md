@@ -90,6 +90,12 @@
 
 **uniq** - Report or Omit Repeated Lines
 
+**head** - Display the Beginning of a File
+
+**tail** - Display the End of a File
+
+**grep** - Invert Match
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Let's dive into some basic Linux shell commands.
