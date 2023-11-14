@@ -1,4 +1,4 @@
-# Linux shell basics
+# Linux shell commands
 
 **ls** - List Files
 
