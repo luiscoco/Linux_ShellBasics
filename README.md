@@ -140,7 +140,7 @@ Let's dive into some basic Linux shell commands.
 
 **ls - List Files**:
 
-The ls command is used to list the files and directories in the current directory.
+The **ls** command is used to list the files and directories in the current directory.
 
 Example:
 
@@ -150,7 +150,7 @@ ls
 
 **cd - Change Directory**:
 
-The cd command is used to change the current working directory.
+The **cd** command is used to change the current working directory.
 
 Example:
 
@@ -158,7 +158,7 @@ cd Documents
 
 **pwd - Print Working Directory**:
 
-The pwd command prints the current working directory.
+The **pwd** command prints the current working directory.
 
 Example:
 
@@ -168,7 +168,7 @@ Pwd
 
 **cp – Copy**:
 
-The cp command is used to copy files or directories.
+The **cp** command is used to copy files or directories.
 
 Example:
 
@@ -178,7 +178,7 @@ cp file.txt backup/
 
 **mv - Move/Rename**:
 
-The mv command is used to move or rename files or directories.
+The **mv** command is used to move or rename files or directories.
 
 Example:
 
@@ -188,7 +188,7 @@ mv file.txt new_location/
 
 **rm - Remove/Delete**:
 
-The rm command is used to remove or delete files and directories.
+The **rm** command is used to remove or delete files and directories.
 
 Example:
 
@@ -198,7 +198,7 @@ rm unwanted_file.txt
 
 **mkdir - Make Directory**:
 
-The mkdir command is used to create a new directory.
+The **mkdir** command is used to create a new directory.
 
 Example:
 
@@ -208,7 +208,7 @@ mkdir new_directory
 
 **rmdir - Remove Directory**:
 
-The rmdir command is used to remove an empty directory.
+The **rmdir** command is used to remove an empty directory.
 
 Example:
 
@@ -218,7 +218,7 @@ rmdir empty_directory
 
 **cat - Concatenate and Display**:
 
-The cat command is used to display the contents of a file.
+The **cat** command is used to display the contents of a file.
 
 Example:
 
@@ -228,7 +228,7 @@ cat file.txt
 
 **echo - Display Text**:
 
-The echo command is used to display text on the terminal.
+The **echo** command is used to display text on the terminal.
 
 Example:
 
@@ -238,7 +238,7 @@ echo "Hello, Linux!"
 
 **touch - Create Empty File**:
 
-The touch command is used to create an empty file.
+The **touch** command is used to create an empty file.
 
 Example:
 
@@ -248,7 +248,7 @@ touch new_file.txt
 
 **nano - Text Editor**:
 
-The nano command opens a simple text editor.
+The **nano** command opens a simple text editor.
 
 Example:
 
@@ -256,11 +256,11 @@ Example:
 nano new_file.txt
 ```
 
-Press Ctrl + X to exit, and it will prompt you to save changes.
+Press **Ctrl + X** to exit, and it will prompt you to save changes.
 
 **grep - Search Text**:
 
-The grep command is used to search for a specific pattern in a file.
+The **grep** command is used to search for a specific pattern in a file.
 
 Example:
 
@@ -270,7 +270,7 @@ grep "keyword" file.txt
 
 **chmod - Change Permissions**:
 
-The chmod command is used to change the permissions of a file or directory.
+The **chmod** command is used to change the permissions of a file or directory.
 
 Example:
 
@@ -282,7 +282,7 @@ This makes the script executable.
 
 **ps - Process Status**:
 
-The ps command displays information about running processes.
+The **ps** command displays information about running processes.
 
 Example:
 
@@ -292,7 +292,7 @@ ps aux
 
 **kill - Terminate Process**:
 
-The kill command is used to terminate a process.
+The **kill** command is used to terminate a process.
 
 Example:
 
@@ -304,7 +304,7 @@ Replace PID with the actual process ID.
 
 **df - Disk Free**:
 
-The df command shows the amount of disk space available on the file system.
+The **df** command shows the amount of disk space available on the file system.
 
 Example:
 
@@ -312,11 +312,11 @@ Example:
 df -h
 ```
 
-The -h option makes the output human-readable.
+The **-h** option makes the output human-readable.
 
 **du - Disk Usage**:
 
-The du command displays the disk usage of files and directories.
+The **du** command displays the disk usage of files and directories.
 
 Example:
 
@@ -326,7 +326,7 @@ du -sh directory_name
 
 **tar - Tape Archive**:
 
-The tar command is used to compress and archive files.
+The **tar** command is used to compress and archive files.
 
 Example (create a tarball):
 
@@ -336,7 +336,7 @@ tar -czvf archive.tar.gz directory_to_compress/
 
 **wget - Download from the Web**:
 
-The wget command is used to download files from the internet.
+The **wget** command is used to download files from the internet.
 
 Example:
 
@@ -346,7 +346,7 @@ wget https://example.com/file.zip
 
 **df - Display Free Disk Space**:
 
-The df command without any options displays free disk space for all mounted filesystems.
+The **df** command without any options displays free disk space for all mounted filesystems.
 
 Example:
 
@@ -356,7 +356,7 @@ df
 
 **free - Display Free Memory**:
 
-The free command shows the amount of free and used memory in the system.
+The **free** command shows the amount of free and used memory in the system.
 
 Example:
 
@@ -368,7 +368,7 @@ The -h option makes the output human-readable.
 
 **ps - Display Process Status**:
 
-The ps command with various options can display detailed information about processes.
+The **ps** command with various options can display detailed information about processes.
 
 Example:
 
@@ -380,7 +380,7 @@ Replace process_name with the actual name of the process.
 
 **history - Command History**:
 
-The history command shows a list of previously executed commands.
+The **history** command shows a list of previously executed commands.
 
 Example:
 
@@ -392,7 +392,7 @@ You can also use !n to execute the command with number n from history.
 
 **man - Manual Pages**:
 
-The man command displays the manual or help pages for a given command.
+The **man** command displays the manual or help pages for a given command.
 
 Example:
 
@@ -404,7 +404,7 @@ Use arrow keys to navigate, and press q to exit.
 
 **find - Search for Files**:
 
-The find command is used to search for files and directories based on various criteria.
+The **find** command is used to search for files and directories based on various criteria.
 
 Example:
 
@@ -416,7 +416,7 @@ This finds all files with a .txt extension.
 
 **grep - Search Text in Files**:
 
-The grep command can search for a specific pattern in files.
+The **grep** command can search for a specific pattern in files.
 
 Example:
 
@@ -426,7 +426,7 @@ grep "pattern" file.txt
 
 **awk - Text Processing**:
 
-The awk command is a powerful text processing tool.
+The **awk** command is a powerful text processing tool.
 
 Example:
 
@@ -438,7 +438,7 @@ This prints the second column of a space-separated file.
 
 **sed - Stream Editor**:
 
-The sed command is used for text stream processing.
+The **sed** command is used for text stream processing.
 
 Example:
 
@@ -450,7 +450,7 @@ This replaces all occurrences of 'old' with 'new' in the file.
 
 **alias - Create Command Aliases**:
 
-The alias command is used to create aliases for other commands.
+The **alias** command is used to create aliases for other commands.
 
 Example:
 
@@ -462,7 +462,7 @@ Now you can use ll instead of ls -la.
 
 **top - Display System Activity in Real-Time**:
 
-The top command displays real-time information about system processes.
+The **top** command displays real-time information about system processes.
 
 Example:
 
@@ -474,7 +474,7 @@ Press q to exit.
 
 **htop - Improved Process Viewer**:
 
-The htop command is an enhanced version of top with a better interactive interface.
+The **htop** command is an enhanced version of top with a better interactive interface.
 
 Example:
 
@@ -486,7 +486,7 @@ Use arrow keys to navigate, and press q to exit.
 
 **netstat - Network Statistics**:
 
-The netstat command shows network-related information such as open ports and connections.
+The **netstat** command shows network-related information such as open ports and connections.
 
 Example:
 
@@ -496,7 +496,7 @@ netstat -an
 
 **ifconfig - Network Interface Configuration**:
 
-The ifconfig command displays information about network interfaces.
+The **ifconfig** command displays information about network interfaces.
 
 Example:
 
@@ -506,7 +506,7 @@ ifconfig
 
 **ping - Test Network Connection**:
 
-The ping command is used to test the reachability of a host on a network.
+The **ping** command is used to test the reachability of a host on a network.
 
 Example:
 
@@ -518,7 +518,7 @@ Press Ctrl + C to stop.
 
 **traceroute - Trace Route to a Host**:
 
-The traceroute command shows the route packets take to reach a destination.
+The **traceroute** command shows the route packets take to reach a destination.
 
 Example:
 
@@ -528,7 +528,7 @@ traceroute google.com
 
 **ssh - Secure Shell**:
 
-The ssh command is used to connect to a remote server securely.
+The **ssh** command is used to connect to a remote server securely.
 
 Example:
 
@@ -538,7 +538,7 @@ ssh username@remote_host
 
 **scp - Secure Copy**:
 
-The scp command is used to securely copy files between local and remote hosts.
+The **scp** command is used to securely copy files between local and remote hosts.
 
 Example:
 
@@ -548,7 +548,7 @@ scp local_file.txt username@remote_host:/path/to/destination/
 
 **chmod - Change Permissions**:
 
-The chmod command can change the permissions of a file or directory.
+The **chmod** command can change the permissions of a file or directory.
 
 Example:
 
@@ -560,7 +560,7 @@ This gives read, write, and execute permissions to the owner, and read and execu
 
 **chown - Change Owner**:
 
-The chown command changes the owner of a file or directory.
+The **chown** command changes the owner of a file or directory.
 
 Example:
 
@@ -570,7 +570,7 @@ chown new_owner:new_group file.txt
 
 **curl - Transfer Data with URLs**:
 
-The curl command is used to transfer data to or from a server.
+The **curl** command is used to transfer data to or from a server.
 
 Example:
 
@@ -580,7 +580,7 @@ curl https://example.com
 
 **wget - Non-interactive Network Downloader**:
 
-We've mentioned wget before for downloading files. You can also use it to download recursively.
+We've mentioned **wget** before for downloading files. You can also use it to download recursively.
 
 Example:
 
@@ -592,7 +592,7 @@ This downloads the entire website.
 
 **tar - Extracting Tarballs**:
 
-We used tar to create tarballs. Now, let's extract them.
+We used **tar** to create tarballs. Now, let's extract them.
 
 Example:
 
@@ -602,7 +602,7 @@ tar -xzvf archive.tar.gz
 
 **zip - Compress Files into a Zip Archive**:
 
-The zip command is an alternative to tar for compression.
+The **zip** command is an alternative to tar for compression.
 
 Example:
 
@@ -612,7 +612,7 @@ zip archive.zip file1.txt file2.txt
 
 **unzip - Extract Files from a Zip Archive**:
 
-The unzip command is used to extract files from a zip archive.
+The **unzip** command is used to extract files from a zip archive.
 
 Example:
 
@@ -622,7 +622,7 @@ unzip archive.zip
 
 **echo - Redirect Output**:
 
-The echo command can be used to redirect output to a file.
+The **echo** command can be used to redirect output to a file.
 
 Example:
 
@@ -632,7 +632,7 @@ echo "Hello, Redirected Output!" > output.txt
 
 **sort - Sort Lines of Text**:
 
-The sort command is used to sort lines of text files.
+The **sort** command is used to sort lines of text files.
 
 Example:
 
@@ -642,7 +642,7 @@ sort file.txt
 
 **uniq - Report or Omit Repeated Lines**:
 
-The uniq command removes duplicate lines from a sorted file.
+The **uniq** command removes duplicate lines from a sorted file.
 
 Example:
 
@@ -652,7 +652,7 @@ sort file.txt | uniq
 
 **head - Display the Beginning of a File**:
 
-The head command displays the first few lines of a file.
+The **head** command displays the first few lines of a file.
 
 Example:
 
@@ -662,7 +662,7 @@ head -n 5 file.txt
 
 **tail - Display the End of a File**:
 
-The tail command displays the last few lines of a file.
+The **tail** command displays the last few lines of a file.
 
 Example:
 
@@ -740,7 +740,7 @@ paste file1.txt file2.txt
 
 **date - Display Current Date and Time**:
 
-The date command displays the current date and time.
+The **date** command displays the current date and time.
 
 Example:
 
@@ -750,7 +750,7 @@ date
 
 **cal - Display Calendar**:
 
-The cal command displays a calendar.
+The **cal** command displays a calendar.
 
 Example:
 
@@ -760,7 +760,7 @@ cal
 
 **uptime - Show System Uptime**:
 
-The uptime command displays how long the system has been running.
+The **uptime** command displays how long the system has been running.
 
 Example:
 
@@ -770,7 +770,7 @@ uptime
 
 **whoami - Display Current User**:
 
-The whoami command displays the current username.
+The **whoami** command displays the current username.
 
 Example:
 
@@ -782,7 +782,7 @@ whoami
 
 **grep - Recursive Search**:
 
-The -r option in grep allows you to recursively search for a pattern in directories.
+The **-r** option in grep allows you to recursively search for a pattern in directories.
 
 Example:
 
@@ -792,7 +792,7 @@ grep -r "pattern" /path/to/search
 
 **find - Execute Commands on Found Files**:
 
-You can use find with the -exec option to execute commands on found files.
+You can use find with the **-exec** option to execute commands on found files.
 
 Example:
 
@@ -800,7 +800,7 @@ Example:
 find /path/to/search -name "*.txt" -exec cat {} \;
 ```
 
-This finds all .txt files and prints their contents.
+This finds all **.txt** files and prints their contents.
 
 **xargs - Build and Execute Commands**:
 
@@ -812,7 +812,7 @@ Example:
 find /path/to/search -name "*.log" | xargs grep "error"
 ```
 
-This finds all .log files and searches for "error" in their contents.
+This finds all **.log** files and searches for "error" in their contents.
 
 **awk - Advanced Field Separators**:
 
@@ -836,11 +836,11 @@ Example:
 sed -i 's/old/new/g' file.txt
 ```
 
-This replaces all occurrences of 'old' with 'new' in the file, modifying it directly.
+This replaces all occurrences of **'old'** with **'new'** in the file, modifying it directly.
 
 **tee - Redirect Output to Multiple Files**:
 
-The tee command can be used to redirect output to multiple files.
+The **tee** command can be used to redirect output to multiple files.
 
 Example:
 
@@ -848,11 +848,11 @@ Example:
 command | tee file1.txt file2.txt
 ```
 
-This sends the output of a command to both file1.txt and file2.txt.
+This sends the output of a command to both **file1.txt** and **file2.txt**.
 
 **awk and sort - Custom Sorting**:
 
-Combine awk and sort to perform custom sorting on a specific column.
+Combine **awk** and **sort** to perform custom sorting on a specific column.
 
 Example:
 
@@ -864,7 +864,7 @@ This prints and sorts the second column numerically.
 
 **curl and jq - Process JSON API Responses**:
 
-Use curl to fetch data from a JSON API and jq to process and filter the JSON response.
+Use **curl** to fetch data from a JSON API and **jq** to process and filter the JSON response.
 
 Example:
 
