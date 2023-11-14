@@ -892,8 +892,6 @@ Example:
 find /path/to/backup -type f -print | tar czvf backup.tar.gz -T -
 ```
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
 **awk with Conditionals**:
 
 awk can be used with conditionals to perform actions based on certain criteria.
@@ -934,53 +932,68 @@ Combining pipes (|) and redirection (>, <, >>) can create powerful one-liners.
 
 Example:
 
-bash
-Copy code
+```
 cat access.log | grep "404" | cut -d" " -f1 | sort | uniq > unique_ip_addresses.txt
+```
+
 This finds unique IP addresses that encountered a 404 error in an Apache access log.
 
-Regular Expressions (Regex):
+**Regular Expressions (Regex)**:
+
 Mastering regex patterns allows for sophisticated text matching and manipulation.
+
 Example:
 
-bash
-Copy code
+```
 grep -E "^[0-9]{3}-[0-9]{2}-[0-9]{4}$" data.txt
+```
+
 This matches lines with Social Security Numbers in the format XXX-XX-XXXX.
 
-Advanced find Commands:
+**Advanced find Commands**:
+
 find can be combined with various options for advanced file searches.
+
 Example:
 
-bash
-Copy code
+```
 find /path/to/search -type f -mtime -7 -exec mv {} /backup/ \;
+```
+
 This finds and moves files modified in the last 7 days to a backup directory.
 
-Process Substitution:
+**Process Substitution**:
+
 Process substitution allows the output of a command to be used as an input file.
+
 Example:
 
-bash
-Copy code
+```
 diff <(command1) <(command2)
+```
+
 This compares the output of command1 and command2 using the diff command.
 
-rsync - Remote Sync:
+**rsync** - Remote Sync:
+
 rsync is a powerful command for syncing files between directories or even between different servers.
+
 Example:
 
-bash
-Copy code
+```
 rsync -avz /local/path/ user@remote:/remote/path/
-SSH Key Authentication:
+```
+
+**SSH Key Authentication**:
+
 Set up SSH key pairs to securely connect to remote servers without entering a password each time.
+
 Example:
 
-bash
-Copy code
+```
 ssh-keygen -t rsa
 ssh-copy-id user@remote
+```
 
 **Shell Scripting**:
 
@@ -995,8 +1008,6 @@ ls -l
 ```
 
 Save this as a .sh file and execute with bash script.sh.
-
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 **Command Substitution with a Loop**:
 
@@ -1022,22 +1033,27 @@ awk '/error/ {print $1 " : " $NF}' log_file.txt
 
 This prints the first field and last field of lines containing the word 'error'.
 
-grep with Context:
+**grep with Context**
+
 Using grep with the -C option to display context around matching lines.
+
 Example:
 
-bash
-Copy code
+```
 grep -C 2 "error" log_file.txt
+```
+
 This shows two lines of context around each line containing the word 'error'.
 
-find and xargs - Parallel Execution:
+**find and xargs** - Parallel Execution
+
 Utilizing find and xargs to perform operations on multiple files in parallel.
+
 Example:
 
-bash
-Copy code
+```
 find /path/to/files -type f -print0 | xargs -0 -P 4 -n 1 some_command
+```
 
 This runs some_command on each file in parallel using four processes.
 
