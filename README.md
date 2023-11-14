@@ -72,6 +72,24 @@
 
 **scp** - Secure Copy
 
+**chmod** - Change Permissions
+
+**chown** - Change Owner
+
+**curl** - Transfer Data with URLs
+
+**wget** - Non-interactive Network Downloader
+
+**tar** - Extracting Tarballs
+
+**zip** - Compress Files into a Zip Archive
+
+**unzip** - Extract Files from a Zip Archive
+
+**echo** - Redirect Output
+
+**uniq** - Report or Omit Repeated Lines
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Let's dive into some basic Linux shell commands.
