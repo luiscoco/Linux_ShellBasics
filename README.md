@@ -102,6 +102,18 @@
 
 **sed** - Search and Replace with Confirmation
 
+**cut** - Extract Sections from Each Line
+
+**paste** - Merge Lines from Multiple Files
+
+**date** - Display Current Date and Time
+
+**cal** - Display Calendar
+
+**uptime** - Show System Uptime
+
+**whoami** - Display Current User
+
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 Let's dive into some basic Linux shell commands.
